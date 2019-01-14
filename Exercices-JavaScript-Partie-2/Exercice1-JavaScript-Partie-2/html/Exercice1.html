@@ -1,0 +1,20 @@
+<DOCTYPE html!>
+  <html lang="fr">
+  <head>
+    <script>
+    function imageon() {
+      document.getElementById('image1_2').src = "../img/image1_2.jpg";
+    }
+    function imageoff() {
+      document.getElementById('image1').src = "../img/image1.jpg";
+    }
+  </script>
+  <meta charset="utf-8">
+  <title>Exercice1-Javascript partie2</title>
+</head>
+
+<body>
+  <img id="image1_2" onmouseover="imageon()" onmouseout="imageoff()" src="../img/image1.jpg">
+
+</body>
+</html>
